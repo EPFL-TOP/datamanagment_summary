@@ -7,3 +7,7 @@ The machine runs a Maria DB database that hosts the raw data catalog. Phillippe 
 
 https://docs.google.com/spreadsheets/d/1Ln7mLvwA_yjecEsvndDsx8himvEw8ijISAGyyLYLbjc/edit?gid=1309253770#gid=1309253770
 
+
+# VAST DS
+dataset in `Y:\raw_data\microscopy\vast`
+copy in raid 5 `D:\vast` for speed
