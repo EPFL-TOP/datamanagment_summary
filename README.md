@@ -27,3 +27,10 @@ To connect to Tethys, `ssh <USERNAME>@upoates-tethys.epfl.ch` <USERNAME> is the 
 # live tracking
 
 Make sure server kit is still running on the machine, if it's not the following steps have to be done.
+
+
+# Jetraw
+
+temp files stored in
+`D:\Clement\Temp`
+this can be changed in the interface
