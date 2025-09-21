@@ -34,3 +34,6 @@ Make sure server kit is still running on the machine, if it's not the following 
 temp files stored in
 `D:\Clement\Temp`
 this can be changed in the interface
+
+on the NAS
+Y:\common\JetRawCompressedFiles
