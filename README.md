@@ -26,8 +26,27 @@ To connect to Tethys, `ssh <USERNAME>@upoates-tethys.epfl.ch` <USERNAME> is the 
 
 # live tracking
 
-Make sure server kit is still running on the machine, if it's not the following steps have to be done.
+Make sure server kit is still running on the thethys machine by checking this address: http://upoates-tethys.epfl.ch:8000/
+If you see something like "Running servers" then it's good and running.
 
+if it's not the following steps have to be done. 
+
+If you have a new version of serverkit_main on github:
+https://github.com/EPFL-TOP/lightsheet-live-tracking-tool/blob/main/serverkit_main.py
+
+check detached terminal 
+tmux ls
+
+attach
+tmux attach -t id 
+
+kill job and rerun
+
+exit
+ctrl+b puis d
+
+Viventis 1, code sits in C:\Viventis\lightsheet-live-tracking-tool
+we use pymcs version 2.0.0.2, to change that the run_tracking.bat needs to ve changed accordingly as well as copiyng the run_tracking.py from C:\Viventis\lightsheet-live-tracking-tool to C:\Viventis\PyMCS\<VERSION>\scripts 
 
 # Jetraw
 
