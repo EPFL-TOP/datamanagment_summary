@@ -45,7 +45,7 @@ kill job and rerun
 exit
 ctrl+b puis d
 
-Viventis 1, code sits in C:\Viventis\lightsheet-live-tracking-tool
+On both spims windows machines, code sits in C:\Viventis\lightsheet-live-tracking-tool
 we use pymcs version 2.0.0.2, to change that the run_tracking.bat needs to ve changed accordingly as well as copiyng the run_tracking.py from C:\Viventis\lightsheet-live-tracking-tool to C:\Viventis\PyMCS\<VERSION>\scripts 
 
 # Jetraw
