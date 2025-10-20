@@ -9,8 +9,28 @@ https://docs.google.com/spreadsheets/d/1Ln7mLvwA_yjecEsvndDsx8himvEw8ijISAGyyLYL
 
 
 # VAST DS
+
+Code leaves in C:\Users\helsens\software\VAST-DS
+To be run within conda environment VAST-DS
+python manage.py runserver 8002
+
+if servers dies, machine's reboot needs to set it up again
+
+
 dataset in `Y:\raw_data\microscopy\vast`
-copy in raid 5 `D:\vast` for speed
+database, simple sql file, lives in `Y:\raw_data\microscopy\vast\vast_db`
+In the same folder, also lives a file named accesskeys.py with pyrat and slims API credentials
+copy in raid 5 `D:\vast` for speed from time to time (no done yet)
+
+if changes to the django model, need to migrate the database and re-run the server:
+
+```shell
+git pull
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8002
+```
+
 
 
 # HIVES
